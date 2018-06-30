@@ -6,9 +6,9 @@ A linux virtual machine is configured to support the Item Catalog application fr
 
 ### (Important Note: Login is only accessible through the url pathing.)
 ---
- Ip address: 52.36.67.3
- Port: 2200
- URL: ec2-52-36-67-3.us-west-2.compute.amazonaws.com
+* Ip address: 52.36.67.3
+* Port: 2200
+* 8URL: ec2-52-36-67-3.us-west-2.compute.amazonaws.com
 
 #### Summary of software installed (aside from package updates):
 ---
@@ -68,3 +68,12 @@ Summary of Application Configurations made
 * Finally, restart the apache server
 
 This is the quick rundown of what I have done to setup the instance as well as the application. Now, the application is accessible through the ip address and the hostname.
+
+---
+
+References and very special thenk yous:
+
+* https://ubuntuforums.org/showthread.php?t=1739013
+* https://askubuntu.com/questions/27559/how-do-i-disable-remote-ssh-login-as-root-from-a-server
+* https://www.dabapps.com/blog/introduction-to-pip-and-virtualenv-python/
+* https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
