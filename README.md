@@ -68,3 +68,10 @@ Summary of Application Configurations made
 * Finally, restart the apache server
 
 This is the quick rundown of what I have done to setup the instance as well as the application. Now, the application is accessible through the ip address and the hostname.
+
+---
+
+References and very special thenk yous:
+
+* https://github.com/mulligan121/Udacity-Linux-Configuration
+* https://github.com/iliketomatoes/linux_server_configuration
