@@ -17,6 +17,7 @@ A linux virtual machine is configured to support the Item Catalog application fr
 * Virtualenv (venv)
 * finger
 * python
+* NEW: a password for grader is provided
 
 Summary of Linux Configurations made:
 ---
@@ -32,6 +33,8 @@ Summary of Linux Configurations made:
         * Create an ```authorized_keys``` file within that folder
         * Copy the public key content made from before and paste it within ```authorized_keys```
 * Install all current packages 
+    * NEW: add CRON script to regularly upgrade packages
+    * NEW: upgrade the packages that were kept back
 * Rewrite part of ```/etc/ssh/ssdh_config```:
     *  Change the port so it's now 2200 and not 22
     * Change ```PermitRootLogin``` to no
@@ -77,3 +80,4 @@ References and very special thenk yous:
 * https://askubuntu.com/questions/27559/how-do-i-disable-remote-ssh-login-as-root-from-a-server
 * https://www.dabapps.com/blog/introduction-to-pip-and-virtualenv-python/
 * https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
+* https://superuser.com/questions/1107334/apt-says-packages-have-been-kept-back-what-to-do
