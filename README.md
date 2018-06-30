@@ -67,6 +67,7 @@ Summary of Application Configurations made
 * Create the ```catalog.conf``` file within ```/etc/apache2/sites-available/``` and type the appropriate code so it.
 * Finally, restart the apache server
 
+<<<<<<< HEAD
 This is the quick rundown of what I have done to setup the instance as well as the application. Now, the application is accessible through the ip address and the hostname.
 
 ---
