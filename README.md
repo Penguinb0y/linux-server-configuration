@@ -6,9 +6,9 @@ A linux virtual machine is configured to support the Item Catalog application fr
 
 ### (Important Note: Login is only accessible through the url pathing.)
 ---
- Ip address: 52.36.67.3
- Port: 2200
- URL: ec2-52-36-67-3.us-west-2.compute.amazonaws.com
+* Ip address: 52.36.67.3
+* Port: 2200
+* 8URL: ec2-52-36-67-3.us-west-2.compute.amazonaws.com
 
 #### Summary of software installed (aside from package updates):
 ---
